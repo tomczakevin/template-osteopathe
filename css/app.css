@@ -1,0 +1,506 @@
+html,
+body {
+  height: auto;;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+/*acceuil*/
+#acceuil{
+  width: 100%;
+  height: 800px;
+  background-image: url(fond-zen-quatre.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;;
+}
+.logo-dupont{
+  margin-top: 200px;
+  margin-bottom: 40px;
+}
+.background {
+  width: 100%;
+  height: 750px;;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.blue-purple {
+  width: 100%;
+  height: 800px;
+  background-image: -webkit-linear-gradient(left, #ef7358, #384596);
+  background-image: linear-gradient(to right,#d36a63,#9a1d15);
+  -webkit-animation: fadeOutIn 25s ease;
+  -moz-animation: fadeOutIn 25s ease;
+  animation: fadeOutIn 25s ease;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+.green-blue {
+  width: 100%;
+  height: 800px;
+  background-image: -webkit-linear-gradient(left,  #25345c, #185a9d);
+  background-image: linear-gradient(to right,#25345c, #185a9d);
+  -webkit-animation: fadeInOut 25s ease;
+  -moz-animation: fadeInOut 25s ease;
+  animation: fadeInOut 25s ease;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+.green-blue img{
+  width : 100%;
+  height: auto;;
+  display: block;
+  background-repeat: repeat;
+  opacity: 0.4;
+}
+.signature{
+  -webkit-animation: fadeInOut 25s ease;
+  -moz-animation: fadeInOut 25s ease;
+  animation: fadeInOut 25s ease;
+}
+/*acceuil*/
+
+
+/*lecabinet*/
+
+#lecabinet{
+  width: 100%;
+  height: auto;
+}
+.image-profil{
+  margin-bottom: 50px;
+}
+.texte-presentation p{
+  text-align: justify;
+}
+.mon-parcours {
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #941c14;
+  border-radius: 20px;
+  color:#941c14;
+}
+.mon-parcours:hover {
+  text-decoration: none;
+  transition: 1s;
+  text-align: center;
+  background-color: #941c14;
+  color:white;
+}
+/*fin lecabinet*/
+
+/*consultation*/
+#consultation{
+  margin-top: 100px;
+  text-align: center;
+}
+#consultation h3{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+#consultation a{
+  margin-bottom: 20px;
+}
+.consultation {
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #941c14;
+  border-radius: 20px;
+  color:#941c14;
+}
+.consultation:hover {
+  text-decoration: none;
+  transition: 1s;
+  text-align: center;
+  background-color: #941c14;
+  color:white;
+}
+#consultation img:hover{
+  border: 2px solid white;
+}
+/*fin consultation*/
+
+/*offre*/
+#offre{
+  background-image: url(foncabinet.jpg);
+  background-size: 100% 600px;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+}
+.texte-offre h3{
+  margin-top: 60px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color:#941c14;
+  font-style: italic;
+}
+.pastille-offre{
+  margin-top: 50px;
+  width: 300px;
+  height: 300px;
+  background-color:#941c14;
+  border-radius: 300px;
+}
+.pastille-offre:hover{
+  transition: 1s;
+  width: 300px;
+  height: 300px;
+  background-color:#384596;
+  border-radius: 300px;
+}
+.pastille-offre h4{
+  margin: 5px;
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+/*fin offre*/
+
+/*contact*/
+#contact{
+  margin-top: 80px;
+  border-top: 2px solid #941c14;
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+}
+.horaire{
+  text-align: center;
+  border-right: 1px solid #941c14;
+  color: #941c14;
+}
+.horaire h3{
+  color: #941c14;
+  margin-bottom: 20px;
+}
+input , textarea , button{
+  color: #941c14;
+  border: 1px solid #941c14;
+  border-radius: 20px;
+  background-color: transparent;
+  font-style: italic;
+  margin: 10px;
+}
+input{
+  border: 1px solid #941c14;
+  background-color: transparent;
+  border-radius: 20px;
+}
+button:hover{
+  transition: 1s;
+  background-color: #941c14;
+  color: white;
+  font-style: italic;
+
+}
+.plan-acces{
+  width: 100%;
+  height: 200px;
+}
+/*fin contact*/
+
+/*animation*/
+@-webkit-keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes fadeOutIn {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeOutIn {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeOutIn {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@-moz-keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes checked-anim {
+  50% {
+    width: 3000px;
+    height: 3000px;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
+}
+@keyframes not-checked-anim {
+  0% {
+    width: 3000px;
+    height: 3000px;
+  }
+}
+/*navigateur*/
+li, a {
+  margin: 75px 0 -55px 0;
+  text-decoration: none;
+  text-transform: none;
+  list-style: none;
+  outline: 0;
+  display: none;
+}
+li {
+  width: 230px;
+  text-indent: 56px;
+}
+a:focus {
+  /*display: block;*/
+  color: #333;
+  background-color: #eee;
+  transition: all .5s;
+}
+aside {
+  position: absolute;
+  color: white;
+  top: 35%;
+  right: 10%;
+  text-align: right;
+}
+
+#navigateur{
+  z-index: 50;
+  position: fixed;;
+}
+#menu p{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+
+  color: #941c14;
+}
+
+#trigger, #burger, #burger:before, #burger:after {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  background: #941c14;
+  width: 30px;
+  height: 5px;
+  transition: .2s ease;
+  cursor: pointer;
+  z-index: 1;
+}
+#trigger {
+  height: 25px;
+  background: none;
+}
+#burger:before {
+  content: " ";
+  top: 10px;
+  left: 0;
+}
+#burger:after {
+
+  content: " ";
+  top: 20px;
+  left: 0;
+}
+#menu-toggle:checked + #trigger + #burger {
+  top: 35px;
+  transform: rotate(180deg);
+  transition: transform .2s ease;
+}
+
+#menu-toggle:checked + #trigger + #burger:before {
+  width: 20px;
+  top: -2px;
+  left: 18px;
+  transform: rotate(45deg) translateX(-5px);
+  transition: transform .2s ease;
+}
+#menu-toggle:checked + #trigger + #burger:after {
+  width: 20px;
+  top: 2px;
+  left: 18px;
+  transform: rotate(-45deg) translateX(-5px);
+  transition: transform .2s ease;
+}
+#menu {
+  position: absolute;
+  margin: 0; padding: 0;
+  width: 110px;
+  height: 110px;
+  background-color: white;
+  border-bottom-right-radius: 100%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+  animation: not-checked-anim .12s both;
+  transition: infinit;
+
+}
+#menu-toggle:checked + #trigger + #burger + #menu {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  border-bottom-right-radius: 100%;
+  background-color: white;
+}
+
+#menu-toggle:checked + #trigger ~ #menu > li, a {
+  display: block;
+}
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+  display: none;
+}
+/*footer*/
+#footer{
+  width: 100%;
+  height: 230px;
+  background-color:#941c14;
+}
+.reseaux-sociaux{
+  margin-bottom: 20px;
+}
+.reseaux-sociaux img:hover{
+  border: 1px solid white;
+}
+
+.mentions a{
+  margin-bottom: 10px;
+  color: white;
+  font-style: italic;
+  text-align: center;
+}
+.mentions p{
+  color: white;
+  font-style: italic;
+  text-align: center;
+}
+/* page consultation*/
+.presentation-consultation h4{
+  margin-top: 50px;
+}
+.presentation-consultation p{
+  font-style: italic;
+}
+.text-presentation-consultation{
+  border-left: 1px solid #941c14;
+  margin-top: 90px;
+}
+.deroulement-osteopathique{
+  margin-top: 100px;
+}
+.illustration-deroulement-osteopathique{
+  margin-top: 100px;
+
+}
+.honoraire-osteopathique {
+  margin-top: 100px;
+}
+.reglement-onoraire-osteopathique{
+margin-top: 100px;}
